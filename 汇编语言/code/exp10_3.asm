@@ -55,6 +55,8 @@ dtoput:		pop dx
 		pop cx
 		loop dtocs
 		pop cx
+		ret
+
 
 ;修改一下之前的函数，支持8位除法
 divdw:		mov bl,al	;把最初的低8位保存在bl中
